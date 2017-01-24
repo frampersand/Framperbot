@@ -1,0 +1,49 @@
+[
+    {
+        "name": "simivar/genius-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/simivar/Genius-PHP.git",
+            "reference": "ae3ef8a9cece4c60152ea39f62df9fc2baad19c1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/simivar/Genius-PHP/zipball/ae3ef8a9cece4c60152ea39f62df9fc2baad19c1",
+            "reference": "ae3ef8a9cece4c60152ea39f62df9fc2baad19c1",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2016-04-10 14:41:30",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Genius\\": "src/Genius"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "simivar",
+                "email": "simivar@gmail.com",
+                "homepage": "https://github.com/simivar/Genius-PHP"
+            }
+        ],
+        "description": "Genius PHP is a open source library that allows you to access Genius API from your PHP application. Right now it supports only access_token connection (only get methods).",
+        "homepage": "https://github.com/simivar/Genius-PHP",
+        "keywords": [
+            "PSR-4",
+            "api",
+            "genius",
+            "rapgenius"
+        ]
+    }
+]
