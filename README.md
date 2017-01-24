@@ -1,0 +1,2 @@
+# Framperbot
+Telegram bot - Originally a testbot. It's current function is to read user input in the format of 'Artist - Song', and if it's on the right format, it will fetch and send back the lyrics from the requested song (if found on one of two sources). It uses Gabriele Grillo's Telegram PHP class (https://github.com/Eleirbag89/TelegramBotPHP) with a slight modification to include the answerInlineQuery method. It also requires Genius' library for API requests (http://simivar.github.io/Genius-PHP/).
